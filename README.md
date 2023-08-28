@@ -1,2 +1,2 @@
 # Automating-my-computer
- make my stuff easy
+Make my stuff easy
