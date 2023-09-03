@@ -5,6 +5,7 @@ import pyttsx3
 import webbrowser
 import pywhatkit
 from GoogleNews import GoogleNews
+import time
 
 
 
@@ -52,7 +53,7 @@ def command():
               print(*news[1:5],sep=',')
             #   engine.say(news)
             #   engine.runAndWait()
-        if 'crypto'or 'blockchain' in text:
+        if 'blockchain' in text:
               engine.say("Today crypto news ")
               engine.runAndWait()
               googlenews.get_news('blockchain and Crypto news')
@@ -62,19 +63,8 @@ def command():
             #   engine.say(news)
             #   engine.runAndWait()
 
-              
-
-              
-        
-        
-
-        
-        
-        
-       
-
-    
-
 
 while True:
-    command()   
+    command()  
+
+    
