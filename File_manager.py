@@ -2,7 +2,6 @@ import os
 import shutil
 
 
-
 sorce ='C://Users//Asus//Downloads'
 img_dir='d://image'
 zip_dir='d://Zip_folders'
